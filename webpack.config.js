@@ -63,7 +63,10 @@ const config = {
         //   }]
         // })
     ],
-    mode: 'development'
+    mode: 'development',
+    devServer: {
+        static: "./",
+    }
 };
 
 module.exports = config;
